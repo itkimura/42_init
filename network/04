@@ -1,0 +1,5 @@
+#!/bin/bash
+#Domain Name System (DNS) converts IP addresses into names
+
+
+cat /etc/resolv.conf | awk '/nameserver/{print $2}'

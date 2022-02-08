@@ -1,0 +1,4 @@
+#!/bin/bash
+# en1 is Wifi card and awk is print the value following ether
+
+ifconfig en1 | awk '/ether/{print $2}'

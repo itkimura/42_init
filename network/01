@@ -1,0 +1,5 @@
+#!/bin/bash
+# ifconfig -> configure network interface parameters
+# -l -> list all available interfaces
+
+ifconfig -l
