@@ -1,0 +1,9 @@
+#!/bin/bash
+# Save the answer to variable
+# ping -> test Network -t for 1 sec
+# output.the.anwser.with.only.all.the.submask
+
+ADR=$(ifconfig en0 | awk '/broadcast/{print $6}')
+SUBNET=$(sed -e 's/.255//g' <<< "$ADR")
+ping $ADR -t 1 > /dev/null
+arp -a | awk '{print $2}' | grep $SUBNET | sed 's/[()]//g' 

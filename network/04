@@ -1,5 +1,5 @@
 #!/bin/bash
-#Domain Name System (DNS) converts IP addresses into names
+#netstat -> Network statics
+#-n -> Show network addresses as numbers & -r -> Show the routing tables 
 
-
-cat /etc/resolv.conf | awk '/nameserver/{print $2}'
+netstat -nr | awk '/default/{print $2}' | head -n 1

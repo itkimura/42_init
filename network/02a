@@ -1,0 +1,6 @@
+#!/bin/bash
+# ipconfig -> view and control IP configuration state
+# getifaddr prints IP address
+# en0 is Ethernet
+
+ipconfig getifaddr en0

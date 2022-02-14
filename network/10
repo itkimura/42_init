@@ -1,0 +1,5 @@
+#!/bin/bash
+#traceroute -> print the route packets take to network host
+#tracetoure [Option] [IP address or Domain name]
+
+traceroute who.int

@@ -1,9 +1,0 @@
-01	ifconfig	configure network interface parameters
-			The [-l] flag may be used to list all available interfaces on the system, with no other additional information.
-			Use of this flag is mutually exclusive with all other flags and commands, except for -d
-			(only list interfaces that are down) and -u (only list interfaces that are up).
-
-02	ipconfig	view and control IP configuration state
-			[getifaddr interface-name]
-			Prints to standard output the IP address for the first network service associated with the given interface.
-			The output will be empty if no service is currently configured or active on the interface.

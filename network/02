@@ -1,5 +1,0 @@
-#!/bin/bash
-# ipconfig -> view and control IP configuration state
-# getifaddr prints IP address and en0 at one point "ethernet", now is WiFi (and I have no idea what extra en1 or en2 are used for).
-
-ipconfig getifaddr en0
