@@ -1,0 +1,5 @@
+#!/bin/bash
+#What file contains the RSA keys of systems that are authorized to connect via SSH?
+#RSA -> is a public-key cryptosystem that is widely used for secure data transmission.
+
+cat ~/.ssh/authorized_keys

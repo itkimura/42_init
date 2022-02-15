@@ -1,0 +1,4 @@
+#!/bin/bash
+#To run a command in the background, add the ampersand symbol (&) at the end of the command
+
+tail -f /var/log/syslog & 

@@ -1,0 +1,8 @@
+#!/bin/bash
+#service ssh status -> See status of OpenSSH server
+#(Other option) ps aux | grep sshd
+#ps aux -> a tool to monitor processes running on your Linux system
+#ssh (Secure Shell)-> settings for connecting to other servers via ssh
+#sshd (deamon) -> configuring ssh connections from other servers
+
+service ssh status

@@ -1,0 +1,6 @@
+#!/bin/bash
+#Name the command that lists the partition tables of drives?
+#your hard disk drive divided into one or more logical disks called partitions.
+#lsblk -> used to display details about block devices and these block devices(Except ram disk)
+
+lsblk

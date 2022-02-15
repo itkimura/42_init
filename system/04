@@ -1,0 +1,5 @@
+#!/bin/bash
+#uptime -> utility displays the current time, the length of time the system has been up
+#gsub -> remove , from $5
+
+uptime | awk '{gsub(",", "", $5);print $2,$3,$4,$5}'

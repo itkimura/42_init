@@ -1,0 +1,7 @@
+#!/bin/bash
+#du -> display disk usage statistics
+#-h -> "Human-readable" output.  Use unit suffixes: Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte.
+#-s -> Display an entry for each specified file.
+#/var/* -> each folders in /var.
+
+sudo du -sh /var/*

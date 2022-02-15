@@ -1,0 +1,10 @@
+#!/bin/bash
+#top -> displays a sorted list of system processes.
+#Alternatively ps aux | less
+#ps -> process status
+#a -> Select all process
+#u -> Select all processes on a terminal, including those of other users
+#x -> Select processes without controlling ttys
+
+
+top
