@@ -1,4 +1,3 @@
-#!/bin/bash
 #service -> a command is used to run a System V init script.
 #service sshd restart -> reboots the SSH service.
 

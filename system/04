@@ -1,4 +1,3 @@
-#!/bin/bash
 #uptime -> utility displays the current time, the length of time the system has been up
 #gsub -> remove , from $5
 

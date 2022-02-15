@@ -1,0 +1,6 @@
+#Add IP address and domain name in /etc/hosts
+#sudo and echo append a line in the file
+#After that, you can confirm by running traceroute
+
+sudo echo "46.19.122.85 intra.42.fr" >> /etc/hosts
+traceroute intra.42.fr

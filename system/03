@@ -1,4 +1,3 @@
-#!/bin/bash
 # What file has to be modified to make it permanent?
 # The hostname can be chagend by editing /stc/hostname
 # After editing hostname, edit /etc/hosts to edit the IP to hostname mapping

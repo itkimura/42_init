@@ -1,4 +1,3 @@
-#!/bin/bash
 #hostname -> Check the current host name
 #sudo -> The user must be given sudo rights first to change hostname
 

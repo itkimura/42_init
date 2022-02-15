@@ -1,4 +1,3 @@
-#!/bin/bash
 # Figure out the PID of the SSHD service.
 #Other option -> ps aux | grep "/usr/sbin/sshd" | grep -v grep | awk '{print $2}'
 #grep process will also show up, so "grep -v grep" makes sure that only the sshd process is searched

@@ -1,4 +1,3 @@
-#!/bin/bash
 #top -> displays a sorted list of system processes.
 #Alternatively ps aux | less
 #ps -> process status

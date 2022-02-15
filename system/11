@@ -1,4 +1,3 @@
-#!/bin/bash
 #df -> display free disk space
 #-h -> "Human-readable" output. Use unit suffixes: Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte
 #in order to reduce the number of digits to three or less using base 2 for sizes.

@@ -1,0 +1,8 @@
+#ipconfig -> view and control IP configuration state
+#getpacket -> Prints to standard output the DHCP/BOOTP packet that the client accepted from the DHCP/BOOTP server.
+# yiaddr = Your IP address
+# siaddr = Server Address
+# giaddr = gateway IP address
+# chaddr = Hardware Address
+
+ipconfig getpacket en0 | awk '/yiaddr/{printf $3"\n"}'

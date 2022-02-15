@@ -1,0 +1,5 @@
+#Thanks to the previous question and the reverse DNS find the name of your host
+#nslookup -> allows the user to query name servers for information about various hosts and domains
+
+IP=$(ipconfig getpacket en0 | awk '/yiaddr/{printf $3}')
+nslookup $IP | awk '/name/{print $4}'

@@ -1,0 +1,8 @@
+#Explain how connect yourself as new user. (With graphic session and ssh session)
+graphical session:
+1.Launch the VM
+2.Fill in login info:username & password
+
+ssh session:
+Enter below command in the terminal
+ssh [username]@[local IP] -p [port]

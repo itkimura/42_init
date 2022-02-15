@@ -1,0 +1,7 @@
+#List all real users on the VM
+#/etc/passwd -> Username,Password,UserID,GroupID,UserIDinfo-Comments,HomeDirectory,Shell
+#$3 -> UID (1-499) reserved for system users and UID & (500-999) reserved for system accounts/groups 
+#nobady -> User nobody on a Unix system is traditionally user id 65534.
+#This user is used by NFS servers when they cannot trust the client-supplied uids and gids, or when the root-squash option is being used. 
+
+awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}' /etc/passwd

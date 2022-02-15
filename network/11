@@ -1,4 +1,4 @@
-#NAT ()Network Address Transfer) server
+#NAT (Network Address Transfer) server
 #NAT is a router to map multiple local private addresses to a public one before transferring the information.
 
 traceroute who.int | awk '/nat/{print $3}' | sed 's/[()]//g'

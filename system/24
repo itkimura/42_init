@@ -1,0 +1,4 @@
+#Find the command that list all packages
+#Run command apt list --installed to list all installed packages
+
+apt list --installed

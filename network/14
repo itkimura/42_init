@@ -1,0 +1,4 @@
+#What file contains the local DNS entries
+#/etc/hosts -> a file used by the operating system to translate hostnames to IP-addresses.
+
+cat /etc/hosts

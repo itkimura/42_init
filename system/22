@@ -1,0 +1,5 @@
+#Find the command that add a new local user
+#adduser -> create a new user or update default new user information
+#useradd is native binary compiled with the system. But, adduser is a perl script which uses useradd binary in back-end.
+
+adduser [username]

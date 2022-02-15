@@ -1,0 +1,6 @@
+#List all services which are started at boot time and name this kind of services
+#the systemctl command is the primary tool to manage systemd(Systemd is a system and service manager for Linux)
+#systemctl -> display a list of all loaded systemd units
+#--type -> switch with a value of service.
+
+systemctl --type=service

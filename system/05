@@ -1,4 +1,3 @@
-#!/bin/bash
 #service ssh status -> See status of OpenSSH server
 #(Other option) ps aux | grep sshd
 #ps aux -> a tool to monitor processes running on your Linux system
