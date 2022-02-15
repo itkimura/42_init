@@ -1,0 +1,6 @@
+#!/bin/bash
+#Find the command that allows you to connect via ssh on the VM. (In parallel with on the graphic session)
+#The -p <port> option can be used to specify the port number to connect to when using the ssh command on Linux.
+#Port forwarding needs to be set up on the virtual machine before this can be used
+
+ssh -p <port> username

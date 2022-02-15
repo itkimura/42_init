@@ -1,4 +1,3 @@
-#!/bin/bash
 #Check who.int IP address by nslookup
 # Use awk and head to print only external IP address
 

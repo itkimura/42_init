@@ -1,4 +1,3 @@
-#!/bin/bash
 #Get the complete path of the file that contains the IP address of the DNS server you’re using
 #resolv.conf is a file used in various operating systems to configure the system's Domain Name System (DNS) resolver. 
 #The file is a plain-text file usually created by the network administrator or by applications that manage the configuration tasks of the system.

@@ -1,4 +1,3 @@
-#!/bin/bash
 #nslookup is a program to query Internet domain name servers
 #nsloolup [option] [IP address or Domain name] [DNS server address]
 #Interactive mode -> query name servers for information about various hosts

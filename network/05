@@ -1,4 +1,3 @@
-#!/bin/bash
 # nslookup report back the remote servers DNS details, as well as your own primary DNS to resolve the other server
 
 nslookup who.int

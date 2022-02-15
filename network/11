@@ -1,4 +1,3 @@
-#!/bin/bash
 #NAT ()Network Address Transfer) server
 #NAT is a router to map multiple local private addresses to a public one before transferring the information.
 

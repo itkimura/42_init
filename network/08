@@ -1,4 +1,3 @@
-#!/bin/bash
 #Check who.int IP address by nslookup
 #whois -> Internet domain name and network number directory service
 #The provider is Cloudflare, Inc

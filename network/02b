@@ -1,4 +1,3 @@
-#!/bin/bash
 # Save the answer to variable
 # ping -> test Network -t for 1 sec
 # output.the.anwser.with.only.all.the.submask
