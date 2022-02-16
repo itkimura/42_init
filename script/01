@@ -1,0 +1,4 @@
+#/etc/passwd -> Username,Password,UserID,GroupID,UserIDinfo-Comments,HomeDirectory,Shell
+#awk -> use printf to align all words, -25 means aligh to left and 25 char
+
+awk -F':' '{printf"%-25s%-12s%-12s\n", $1,$3,$6}' /etc/passwd

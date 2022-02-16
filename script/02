@@ -1,0 +1,6 @@
+#Write a script which delete an ACTIVE user on the VM.
+#who ->List active users
+#sudo userdel -> delete users
+
+login=$(who | awk '{printf"%s ", $1}')
+sudo userdel -r $login
